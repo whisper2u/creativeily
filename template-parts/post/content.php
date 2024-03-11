@@ -108,7 +108,7 @@
 		if ( !is_single() && !is_page() ) {
 
 			?>
-			<a href="<?php echo esc_url( get_permalink() ); ?>" rel="bookmark" class="button button-readmore"><?php echo esc_html__( 'Read more', 'creativeily' ); ?></a>
+			<!-- <a href="<?php echo esc_url( get_permalink() ); ?>" rel="bookmark" class="button button-readmore"><?php echo esc_html__( 'Read more', 'creativeily' ); ?></a> -->
 			<?php
 		}
 
