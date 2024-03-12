@@ -40,9 +40,10 @@
 			&copy;<?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>
 			<!-- Delete below lines to remove copyright from footer -->
 			<span class="footer-info-right">
-				<!-- <?php echo __(' | Created with WordPress and', 'creativeily') ?> <a href="<?php echo esc_url('https://superbthemes.com/', 'creativeily'); ?>" rel="nofollow noopener"><?php echo __('SuperbThemes.com', 'creativeily') ?></a> -->
-				<?php echo __(' | Created by ') ?> <a href="<?php echo esc_url('https://github.com/whisper2u', 'creativeily'); ?>" rel="nofollow noopener"><?php echo __('whisper2u', 'creativeily') ?></a>
-
+				<?php echo __(' | Created by ', 'creativeily') ?> 
+				<a href="<?php echo esc_url('https://github.com/whisper2u', 'creativeily'); ?>" rel="nofollow noopener" ><?php echo __('whisper2u', 'creativeily') ?></a>
+				<?php echo __(' | ', 'creativeily') ?>
+				<a href="<?php echo esc_url('http://localhost/wp-admin/', 'creativeily'); ?>" rel="nofollow noopener" ><?php echo __('登录', 'creativeily') ?></a>
 			</span>
 			<!-- Delete above lines to remove copyright from footer -->
 </div>
