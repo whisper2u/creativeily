@@ -1314,7 +1314,8 @@ table#wp-calendar {
 }
 .wrapmain .content-area article .entry-content p {
   font-size: 15px;
-  color: #989898;
+  /* color: #989898; */
+  color: #111111;
   text-align: left;
 }
 .featured-img-box {
