@@ -91,7 +91,7 @@
 		<?php
 		/* translators: %s: Name of current post */
 
-		if(!is_single() && !is_page())  the_excerpt();
+		if(is_single() && !is_page())  the_excerpt();
 		else the_content( sprintf(
 			__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'creativeily' ),
 			get_the_title()
